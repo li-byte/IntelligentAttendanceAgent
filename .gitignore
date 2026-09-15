@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境与密钥（切勿提交）
+.env
+
+# 测试/缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 数据
+*.db
+*.sqlite3
+
+# Docker
